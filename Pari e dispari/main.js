@@ -95,5 +95,5 @@ function getOddOrEven(sumOfnumber, userWord) {
 
 }
 
-console.log(getOddOrEven(finalResult, userChoice));
+console.log(getOddOrEven());
 
