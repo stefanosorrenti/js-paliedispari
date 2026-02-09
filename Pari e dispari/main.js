@@ -66,7 +66,52 @@ const computerNumber = pcNumber(1, 5) //richiamo la funzione in una variabile
 
 const finalResult = userNumber + computerNumber; //sommo i numeri
 
-console.log(finalResult);
+
+/* console.log(userNumber);
+console.log(computerNumber);
+ */
 
 
+//verifico se la somma dei numeri è pari o dispari
+
+//SE il numero pari E' l'utente ha selezionato pari
+/* if (finalResult % 2 === 0 && userChoice === 'pari') {
+    winner = 'Ha vinto il giocatore'
+
+    //ALTRIMENTI SE la somma dei numeri E' dispari è l'utente ha scelto dispari
+} else if (finalResult % 2 === 1 && userChoice === 'dispari') {
+    winner = 'Ha vinto il giocatore'
+
+
+    //ALTRIMENTI     
+} else {
+    winner = 'Ha vinto il computer'
+} */
+
+
+
+
+
+function getOddOrEven(sumOfnumber, userWord) {
+    //verifico se la somma dei numeri è pari o dispari
+    let winner;
+    //SE il numero pari E' l'utente ha selezionato pari
+    if (sumOfnumber % 2 === 0 && userWord === 'PARI') {
+        winner = 'Ha vinto il giocatore'
+        
+        //ALTRIMENTI SE la somma dei numeri E' dispari è l'utente ha scelto dispari
+    } else if (sumOfnumber % 2 === 1 && userWord === 'DISPARI') {
+        winner = 'Ha vinto il giocatore'
+
+
+        //ALTRIMENTI     
+    } else {
+        winner = 'Ha vinto il computer'
+    }
+
+    return winner;
+
+}
+
+console.log(getOddOrEven(finalResult, userChoice));
 
