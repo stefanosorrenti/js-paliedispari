@@ -76,7 +76,7 @@ console.log(`Il totale è: ${finalResult}`);
 
 function getOddOrEven(sumOfnumber, userWord) {
     //verifico se la somma dei numeri è pari o dispari
-    let winner;
+    let winner; //variabile d'appoggio
     //SE il numero pari E' l'utente ha selezionato pari
     if (sumOfnumber % 2 === 0 && userWord === 'PARI') {
         winner = 'Ha vinto il giocatore'
@@ -95,5 +95,10 @@ function getOddOrEven(sumOfnumber, userWord) {
 
 }
 
-console.log(getOddOrEven());
+console.log(getOddOrEven(finalResult, userChoice));
+
+
+
+
+
 
