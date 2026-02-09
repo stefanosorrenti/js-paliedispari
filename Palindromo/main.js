@@ -26,17 +26,21 @@ Se sì, di che tipo?
 Cosa deve fare la macchina?
 
 -deve chiedere di inserire una parola
+- devo spezzettare tutti i caratteri della parola
+--spezzettare tutti i caratteri della parola la contrario
 -creo una funzione
 -la funzione deve
-    -spezzettare tutti i caratteri della parola
     -ciclare tutti i caratteri della frase
+-creo una funziona
     -ciclare tutti i caratteri della frase al contrario
-    SE i caratteri sono uguali
-        -ricomponi la frase
-        -stampa il messaggio 'palindromo'
-    ALTRIMENTI 
-        -ricomponi la frase
-        stampa il messaggio 'no palindromo'
+
+SE I CARETTERI DELLA PRIMA FUNZIONA SONO UGUALI A QUELLI DELLA SECONDA
+    -ricompongo la frase
+    -stampo il messaggio 'Frase palindroma'
+ALTRIMENTI
+    -ricompongo la frase
+    -stampo il messaggio 'Frase non palindroma?
+
 
 
 
@@ -50,4 +54,18 @@ SE quando scorre le lettere nel primo forse sono uguali all'altro
 ALTRIMENTI
 Notifica l'utente che non è palidroma.
 */
+
+//DATA
+const userWords = prompt('Inserisci una parola per verificare se è palindroma')//deve chiedere di inserire una parola
+
+const splittedWords = userWords.split('') //spezzettare i caratteri di una frase/parola
+
+const splittedWordsReversed = splittedWords.reverse()
+
+console.log(splittedWords, splittedWordsReversed);
+
+//FUNCTIONS
+
+//creo una funzione
+
 
