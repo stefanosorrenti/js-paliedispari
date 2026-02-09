@@ -28,3 +28,27 @@ Se sì, di che tipo?
 
 
 //HUMAN CODE
+
+/*
+Cosa deve fare la macchina?*
+
+-chiedo all'utente di scegliere pari o dispari
+-chiedo all'utente di scegliere un numero da 1 a 5
+-genero un numero random da 1 a 5 per il computer
+-sommo i numeri
+-verifico se la somma dei numeri è pari o dispari
+    SE il numero pari E' l'utente ha selezionato pari
+        -stampo vince l'utente
+    ALTRIMENTI SE la somma dei numeri E' dispari è l'utente ha scelto dispari
+        -stampo vince l'utente
+    
+    ALTRIMENTI 
+        -stampo che vince la macchina
+
+
+*/
+
+
+
+//DATA
+
