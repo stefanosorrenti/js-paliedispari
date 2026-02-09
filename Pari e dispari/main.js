@@ -52,3 +52,21 @@ Cosa deve fare la macchina?*
 
 //DATA
 
+const userChoice = prompt('Scrivi se vuoi giocare pari o dispari').toUpperCase(); //chiedo all'utente di scegliere pari o dispari
+
+const userNumber = 5;
+/* parseInt(prompt('Scrivi un numero da 1 a 5')); //chiedo all'utente di scegliere un numero da 1 a 5 */
+
+function pcNumber(min, max) {  //genero un numero random da 1 a 5 per il computer
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+const computerNumber = pcNumber(1, 5) //richiamo la funzione in una variabile
+
+
+const finalResult = userNumber + computerNumber; //sommo i numeri
+
+console.log(finalResult);
+
+
+
