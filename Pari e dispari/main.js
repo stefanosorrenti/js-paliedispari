@@ -66,27 +66,10 @@ const computerNumber = pcNumber(1, 5) //richiamo la funzione in una variabile
 const finalResult = userNumber + computerNumber; //sommo i numeri
 
 
-/* console.log(userNumber);
-console.log(computerNumber);
- */
-
-
-//verifico se la somma dei numeri è pari o dispari
-
-//SE il numero pari E' l'utente ha selezionato pari
-/* if (finalResult % 2 === 0 && userChoice === 'pari') {
-    winner = 'Ha vinto il giocatore'
-
-    //ALTRIMENTI SE la somma dei numeri E' dispari è l'utente ha scelto dispari
-} else if (finalResult % 2 === 1 && userChoice === 'dispari') {
-    winner = 'Ha vinto il giocatore'
-
-
-    //ALTRIMENTI     
-} else {
-    winner = 'Ha vinto il computer'
-} */
-
+//STRUCTURE
+console.log(`Il tuo numero è: ${userNumber} Hai scelto: ${userChoice}`);
+console.log(`Il numero del computer è: ${computerNumber}`);
+console.log(`Il totale è: ${finalResult}`);
 
 
 
