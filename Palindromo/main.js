@@ -21,3 +21,19 @@ Se sì, di che tipo?
 
 
 //HUMAN CODE
+
+/*
+Cosa deve fare la macchina?
+
+-deve chiedere di inserire una parola
+-deve scorrere tra tutte le lettera di quella parola
+-deve scorrere tra tutte le lettere di quella parola al contrario
+SE quando scorre le lettere nel primo forse sono uguali all'altro
+    -notifica l'utente se è palidroma
+ALTRIMENTI
+    Notifica l'utente che non è palidroma.
+
+
+*/
+
+
