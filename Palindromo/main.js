@@ -56,16 +56,48 @@ Notifica l'utente che non è palidroma.
 */
 
 //DATA
-const userWords = prompt('Inserisci una parola per verificare se è palindroma')//deve chiedere di inserire una parola
+const userWord = prompt('Inserisci una parola per verificare se è palindroma')//deve chiedere di inserire una parola
 
-const splittedWords = userWords.split('') //spezzettare i caratteri di una frase/parola
 
-const splittedWordsReversed = splittedWords.reverse()
-
-console.log(splittedWords, splittedWordsReversed);
 
 //FUNCTIONS
-
 //creo una funzione
 
 
+
+
+
+function toReverse(word) {
+    let reverse = ''
+    for (i = word.length - 1; i >= 0; i--) {
+        
+        reverse = reverse + word[i] 
+        
+
+    }
+
+    return reverse
+}
+
+
+
+
+
+    const reversedWord = toReverse(userWord) 
+
+    if(reversedWord === userWord) {
+        console.log('Palindroma');
+        
+    } else {
+        console.log('Non sei palindroma');
+        
+    }
+
+
+
+    //STRUCTURE
+    console.log(`La tua parola è questa: ${userWord}`);
+
+    console.log(`La parola al contrario è questa: ${reversedWord}`);
+    
+    
