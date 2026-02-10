@@ -27,18 +27,13 @@ Cosa deve fare la macchina?
 
 -deve chiedere di inserire una parola
 - devo spezzettare tutti i caratteri della parola
---spezzettare tutti i caratteri della parola la contrario
 -creo una funzione
 -la funzione deve
-    -ciclare tutti i caratteri della frase
--creo una funziona
-    -ciclare tutti i caratteri della frase al contrario
-
-SE I CARETTERI DELLA PRIMA FUNZIONA SONO UGUALI A QUELLI DELLA SECONDA
-    -ricompongo la frase
+    -reversare la parola
+-confronto il la parola con la parola reverse
+//SE la parola al contrario è uguale a quella del prompt
     -stampo il messaggio 'Frase palindroma'
 ALTRIMENTI
-    -ricompongo la frase
     -stampo il messaggio 'Frase non palindroma?
 
 
@@ -63,15 +58,11 @@ const userWord = prompt('Inserisci una parola per verificare se è palindroma')/
 //FUNCTIONS
 //creo una funzione
 
-
-
-
-
 function toReverse(word) {
-    let reverse = ''
+    let reverse = '' 
     for (i = word.length - 1; i >= 0; i--) {
         
-        reverse = reverse + word[i] 
+        reverse = reverse + word[i] //reversare la parola e aggiungo piano piano la parte spezzetata
         
 
     }
@@ -83,13 +74,13 @@ function toReverse(word) {
 
 
 
-    const reversedWord = toReverse(userWord) 
-
-    if(reversedWord === userWord) {
-        console.log('Palindroma');
+    const reversedWord = toReverse(userWord) //salvo il valore
+//confronto il la parola con la parola reverse
+    if(reversedWord === userWord) {  //SE la parola al contrario è uguale a quella del prompt
+        console.log('Palindroma'); //stampo che è palindroma
         
-    } else {
-        console.log('Non sei palindroma');
+    } else { //ALTRIMENTI 
+        console.log('Non sei palindroma'); //stampa 'non è palindroma'
         
     }
 
