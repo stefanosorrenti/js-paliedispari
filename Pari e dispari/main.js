@@ -73,7 +73,8 @@ console.log(`Il totale è: ${finalResult}`);
 
 
 
-
+//LOGIC
+//creo una funzione con i relativi parametri
 function getOddOrEven(sumOfnumber, userWord) {
     //verifico se la somma dei numeri è pari o dispari
     let winner; //variabile d'appoggio
@@ -95,6 +96,7 @@ function getOddOrEven(sumOfnumber, userWord) {
 
 }
 
+//richiamo la funziona con gli argomenti
 console.log(getOddOrEven(finalResult, userChoice));
 
 

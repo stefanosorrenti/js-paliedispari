@@ -75,7 +75,7 @@ function toReverse(word) {
 
 
     const reversedWord = toReverse(userWord) //salvo il valore
-//confronto il la parola con la parola reverse
+//confronto la parola con la parola reverse
     if(reversedWord === userWord) {  //SE la parola al contrario è uguale a quella del prompt
         console.log('Palindroma'); //stampo che è palindroma
         
